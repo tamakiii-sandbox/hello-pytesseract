@@ -4,9 +4,9 @@ import pytesseract
 def main():
     # Paths to the uploaded images
     image_paths = [
-        '/mnt/data/FEDEF62B-1071-4DAF-A5F4-E50E0E4AC1AB.jpeg',
-        '/mnt/data/EC903909-4BAF-44FC-A8DB-7B471B5DE6BF.jpeg',
-        '/mnt/data/CA7F6F44-ED75-46AF-8608-DE3B29365173.jpeg'
+        './mnt/data/FEDEF62B-1071-4DAF-A5F4-E50E0E4AC1AB.jpeg',
+        './mnt/data/EC903909-4BAF-44FC-A8DB-7B471B5DE6BF.jpeg',
+        './mnt/data/CA7F6F44-ED75-46AF-8608-DE3B29365173.jpeg'
     ]
 
     # Process each image for text extraction using pytesseract
