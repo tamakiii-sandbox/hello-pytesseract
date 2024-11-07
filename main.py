@@ -16,7 +16,7 @@ def main():
         text = pytesseract.image_to_string(image, lang='jpn+eng')  # Assuming the books are in Japanese
         extracted_texts.append(text)
 
-    extracted_texts
+    print(extracted_texts)
 
 if __name__ == "__main__":
     main()
